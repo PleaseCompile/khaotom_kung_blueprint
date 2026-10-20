@@ -1,0 +1,11 @@
+{
+  "P04": {"verdict": "FAIL", "notes_th": "หน้าเชฟตรงกับ REF-4 แต่หัวกุ้งในชามดูเป็นสีส้มเหมือนสุกแล้ว (ไม่ตรงกับ B09 ที่ยังดิบสีเทาอมฟ้า) และชามยังไม่ได้อยู่เหนือหม้อ เป็นแค่ยืนถือข้างๆ", "fix_en": "The prawn heads in her bowl are clearly raw, translucent grey-blue shells, not orange or cooked. She stands right beside the stove, holding the bowl directly above the open pot of garlic oil."},
+  "B09": {"verdict": "PASS", "notes_th": "หัวกุ้งดิบกำลังร่วงลงน้ำมันกระเทียม มีฟองกระเซ็น ชามกระเทียมเจียวอยู่ข้างๆ ใช้ได้ (หูหม้อสองข้างสีไม่เหมือนกันนิดหน่อย ไม่เป็นไร)", "fix_en": ""},
+  "B10": {"verdict": "PASS", "notes_th": "ตะหลิวไม้กดหัวกุ้ง มันกุ้งสีส้มเริ่มซึมออกมา เห็นแค่มือกับแขนเสื้อคราม หางกุ้งดิบอยู่ในชาม มือดูปกติ", "fix_en": ""},
+  "B11": {"verdict": "FAIL", "notes_th": "มุมภาพแทบเหมือน REF-1 ทุกอย่าง (เตาซ้าย เคาน์เตอร์ขวา หน้าต่าง) แค่เพิ่มแขนเข้ามา และหัวกุ้งกองสูงพ้นปากหม้อดูไม่สมจริง", "fix_en": "Frame it as a new, closer side angle on the pot and the dipper, not the wide stove-and-counter view of the reference. The prawn heads sit low inside the pot in the oil, not heaped above the rim."},
+  "P05": {"verdict": "PASS", "notes_th": "หน้าตรงกับ REF-4 ถือทัพพีมีฟองเหนือหม้อน้ำซุปสีส้มอ่อน ยังไม่มีข้าว มือซ้ายที่ขอบหม้อเบลอนิดหน่อยแต่ไม่เด่น", "fix_en": ""},
+  "B12": {"verdict": "PASS", "notes_th": "มือเอียงชามข้าวสวย เม็ดข้าวเริ่มร่วงลงน้ำซุปที่ยังไม่มีข้าว จังหวะเริ่มต้นถูกต้อง", "fix_en": ""},
+  "B13": {"verdict": "PASS", "notes_th": "รินน้ำปลาจากถ้วยกระเบื้องเป็นสายสีอำพันลงข้าวต้มที่มีข้าวแล้ว ไม่มีป้ายหรือขวดมียี่ห้อ (ภาพเป็น CU มากกว่า ECU แต่ใช้ได้)", "fix_en": ""},
+  "P06": {"verdict": "PASS", "notes_th": "หน้าตรงกับ REF-4 ถือช้อนกระเบื้องตักน้ำซุปไว้ต่ำกว่าคางเล็กน้อย ยังไม่ได้ชิม ปากเผยอกำลังจะพูด หม้อมีข้าวแล้ว", "fix_en": ""},
+  "B14": {"verdict": "PASS", "notes_th": "ผิวข้าวต้มเดือดปุดๆ มีคราบน้ำมันกุ้งสีส้ม ไม่มีคน (มุมกว้างกว่า ECU เล็กน้อย เห็นทั้งหม้อ แต่ใช้ได้)", "fix_en": ""}
+}

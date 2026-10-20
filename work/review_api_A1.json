@@ -1,0 +1,17 @@
+{
+  "B01": {
+    "verdict": "FAIL",
+    "notes_th": "เกือบเป็นภาพเดียวกับ REF-3 (ชามตราไก่ เขียงกลม กระเบื้อง ช้อน มุมเดียวกัน แค่ซูมเข้า) ไม่ใช่ ECU มุมต่ำระดับขอบชามตามที่สั่ง อาหารและแสงถูกต้อง",
+    "fix_en": "Do NOT reproduce the reference bowl composition; make a true extreme close-up with the lens just above the bowl rim, the soup surface and one prawn filling most of the frame, rim crossing the lower third, rooster pattern barely visible. Background (board, tiles, spoon) must be only an out-of-focus warm blur."
+  },
+  "B02": {
+    "verdict": "FAIL",
+    "notes_th": "ลอกจาก REF-2 แทบทั้งภาพ (เขียง ชามเคลือบ ใบตอง หน้าต่าง กระเบื้อง วางตำแหน่งเดิม แค่ crop) กุ้งมี 5 ตัวไม่ใช่ 6 สภาพกุ้งดิบถูกต้อง",
+    "fix_en": "Do NOT copy the reference prawn image layout; frame tighter from a new side angle so the prawns' heads and blue claws run across the full width of the frame, the board edge only at the bottom, no window or enamel bowl in frame. Show exactly six prawns."
+  },
+  "B03": {
+    "verdict": "PASS",
+    "notes_th": "มุมใหม่ใกล้ขึ้น ระดับต่ำ เตาถ่านดำ ถ่านแดง ประกายไฟลอย หม้ออลูมิเนียมหูสองข้างตรงกับ REF-1 ไม่มีอาหาร ไม่มีคน ไอค่อนข้างเยอะกว่า 'เริ่มมีไอ' เล็กน้อยแต่ใช้ได้",
+    "fix_en": ""
+  }
+}

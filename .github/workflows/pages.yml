@@ -1,0 +1,50 @@
+name: Build & deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==12.0.0
+      - name: Build timeline, sheets, docs and pages
+        working-directory: work
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python build.py --check --jobs --deliver --docs
+          python build_th.py
+          python build_phases.py
+          python build_web.py
+      - name: Zip timeline folder for download
+        run: cd output && zip -qr khaotom_timeline.zip 02_timeline
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

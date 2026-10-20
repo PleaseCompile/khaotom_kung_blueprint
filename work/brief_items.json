@@ -1,0 +1,689 @@
+{
+ "items": [
+  {
+   "id": "P01",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE",
+    "COUNTER",
+    "PRAWN"
+   ],
+   "state": "RAW",
+   "cam_th": "ดันกล้องเข้าช้าๆ",
+   "cam_en": "Slow push in",
+   "line_th": "เช้านี้มาทำข้าวต้มกุ้งกันค่ะ สูตรบ้านๆ แต่หอมไปทั้งซอย",
+   "action_th": "เชฟยืนหลังเคาน์เตอร์ไม้ ยิ้มมองกล้อง มือผายไปที่กุ้งแม่น้ำดิบบนเขียง หม้อน้ำบนเตาถ่านด้านหลังมีไอบางๆ",
+   "highlight": false,
+   "gen": 10,
+   "start": 0,
+   "end": 8,
+   "dur": 8,
+   "act": "A1"
+  },
+  {
+   "id": "B01",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "BOWL"
+   ],
+   "state": "BOWL",
+   "cam_th": "ดันกล้องเข้าช้ามาก",
+   "cam_en": "Very slow push in",
+   "action_th": "ภาพตัวอย่างตอนจบ (flash-forward): ไอร้อนลอยจากผิวข้าวต้มกุ้งในชามตราไก่ แสงเช้าส่องผ่านไอ",
+   "highlight": true,
+   "gen": 8,
+   "start": 8,
+   "end": 12,
+   "dur": 4,
+   "act": "A1"
+  },
+  {
+   "id": "B02",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "COUNTER",
+    "PRAWN"
+   ],
+   "state": "RAW_BOARD",
+   "cam_th": "เลื่อนกล้องไปขวาช้าๆ",
+   "cam_en": "Slow truck right",
+   "action_th": "กุ้งแม่น้ำดิบเรียงบนเขียงไม้มะขาม หยดน้ำเกาะเปลือก ก้ามยาวสีฟ้าทอดยาว",
+   "highlight": false,
+   "gen": 8,
+   "start": 12,
+   "end": 17,
+   "dur": 5,
+   "act": "A1"
+  },
+  {
+   "id": "B03",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "WATER",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "ถ่านในเตาถ่านเรืองแดง ประกายไฟลอยขึ้น หม้อน้ำใสเริ่มมีไอ",
+   "highlight": false,
+   "gen": 8,
+   "start": 17,
+   "end": 22,
+   "dur": 5,
+   "act": "A1"
+  },
+  {
+   "id": "P02",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "COUNTER",
+    "PRAWN"
+   ],
+   "state": "RAW_BOARD",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "line_th": "กุ้งแม่น้ำหัวมันเยอะ มันสีส้มในหัวนี่แหละ คือหัวใจของน้ำซุปค่ะ",
+   "action_th": "เชฟหยิบกุ้งดิบหนึ่งตัวขึ้นมาระดับอก หันหัวกุ้งเข้ากล้องให้เห็นมันกุ้งสีส้ม",
+   "highlight": false,
+   "gen": 10,
+   "start": 22,
+   "end": 30,
+   "dur": 8,
+   "act": "A1"
+  },
+  {
+   "id": "B04",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "COUNTER",
+    "PRAWN",
+    "HANDS"
+   ],
+   "state": "PEELING",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มือบิดหัวกุ้งออกจากตัว มันกุ้งสีส้มเยิ้มเงาที่รอยต่อ",
+   "highlight": true,
+   "gen": 8,
+   "start": 30,
+   "end": 35,
+   "dur": 5,
+   "act": "A2"
+  },
+  {
+   "id": "B05",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "COUNTER",
+    "PRAWN",
+    "HANDS"
+   ],
+   "state": "PEELED",
+   "cam_th": "ก้มกล้องลงช้าๆ",
+   "cam_en": "Slow tilt down",
+   "action_th": "มือวางกุ้งแกะเปลือกแล้วลงชามเคลือบ หางกุ้งยังติดครีบหาง เนื้อใสสีเทา",
+   "highlight": false,
+   "gen": 8,
+   "start": 35,
+   "end": 40,
+   "dur": 5,
+   "act": "A2"
+  },
+  {
+   "id": "P03",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "COUNTER",
+    "PRAWN"
+   ],
+   "state": "PEELED",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "line_th": "กระเทียมไทยสับหยาบๆ เจียวให้เหลืองหอม เก็บไว้โรยตอนท้าย",
+   "action_th": "เชฟถือมีดอีโต้บนเขียงที่มีกองกระเทียมสับ ชามกุ้งแกะแล้วและชามหัวกุ้งวางข้างๆ พูดกับกล้อง",
+   "highlight": false,
+   "gen": 10,
+   "start": 40,
+   "end": 48,
+   "dur": 8,
+   "act": "A2"
+  },
+  {
+   "id": "B06",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "COUNTER",
+    "HANDS"
+   ],
+   "state": "PEELED",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มีดอีโต้สับกระเทียมไทยบนเขียง ชิ้นกระเทียมกระเด็นเล็กน้อย",
+   "highlight": false,
+   "gen": 8,
+   "start": 48,
+   "end": 53,
+   "dur": 5,
+   "act": "A2"
+  },
+  {
+   "id": "B07",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "GARLIC0",
+   "cam_th": "ดันกล้องเข้าช้าๆ",
+   "cam_en": "Slow push in",
+   "action_th": "กระเทียมสับเจียวในน้ำมันในหม้อ ฟองน้ำมันเล็กๆ กระเทียมเปลี่ยนเป็นสีเหลืองทอง",
+   "highlight": true,
+   "gen": 8,
+   "start": 53,
+   "end": 59,
+   "dur": 6,
+   "act": "A2"
+  },
+  {
+   "id": "B08",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "HANDS"
+   ],
+   "state": "GARLIC",
+   "cam_th": "ยกกล้องขึ้นช้าๆ",
+   "cam_en": "Slow tilt up",
+   "action_th": "กระชอนตักกระเทียมเจียวสีทองขึ้นจากหม้อ น้ำมันหยดกลับลงหม้อ",
+   "highlight": false,
+   "gen": 8,
+   "start": 59,
+   "end": 65,
+   "dur": 6,
+   "act": "A2"
+  },
+  {
+   "id": "P04",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE",
+    "COUNTER",
+    "PRAWN"
+   ],
+   "state": "GARLICOIL",
+   "cam_th": "โค้งกล้องไปขวาช้าๆ",
+   "cam_en": "Slow arc right",
+   "line_th": "น้ำมันกระเทียมอย่าทิ้งนะคะ เอาหัวกุ้งลงไปผัดให้มันกุ้งออกมา",
+   "action_th": "เชฟยืนข้างเตาถ่าน ถือชามหัวกุ้งดิบเหนือหม้อที่น้ำมันกระเทียมกำลังเดือด",
+   "highlight": false,
+   "gen": 10,
+   "start": 65,
+   "end": 73,
+   "dur": 8,
+   "act": "A3"
+  },
+  {
+   "id": "B09",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "STOVE",
+    "PRAWN"
+   ],
+   "state": "GARLICOIL",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "หัวกุ้งร่วงลงน้ำมันกระเทียมร้อน น้ำมันกระเซ็นเป็นฟอง เปลือกเริ่มเปลี่ยนเป็นสีส้มสด",
+   "highlight": true,
+   "gen": 8,
+   "start": 73,
+   "end": 79,
+   "dur": 6,
+   "act": "A3"
+  },
+  {
+   "id": "B10",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "PRAWN",
+    "HANDS"
+   ],
+   "state": "HEADS",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "ตะหลิวไม้กดหัวกุ้งในหม้อ มันกุ้งสีส้มแผ่ซึมออกมาในน้ำมัน",
+   "highlight": false,
+   "gen": 8,
+   "start": 79,
+   "end": 84,
+   "dur": 5,
+   "act": "A3"
+  },
+  {
+   "id": "B11",
+   "kind": "broll",
+   "size": "MS",
+   "props": [
+    "STOVE",
+    "HANDS"
+   ],
+   "state": "HEADS",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มือเทน้ำจากขันอะลูมิเนียมลงหม้อ ไอน้ำพวยพุ่งขึ้นตัดแสงเช้า",
+   "highlight": true,
+   "gen": 8,
+   "start": 84,
+   "end": 89,
+   "dur": 5,
+   "act": "A3"
+  },
+  {
+   "id": "P05",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "BROTH0",
+   "cam_th": "ดันกล้องเข้าช้าๆ",
+   "cam_en": "Slow push in",
+   "line_th": "เคี่ยวสักสิบห้านาที น้ำซุปจะหวานจากกุ้งล้วนๆ เลยค่ะ",
+   "action_th": "เชฟถือทัพพีไม้ช้อนฟองออกจากหม้อน้ำซุปสีส้มอ่อน ไอน้ำลอยตัดแสงเช้า",
+   "highlight": false,
+   "gen": 10,
+   "start": 89,
+   "end": 97,
+   "dur": 8,
+   "act": "A3"
+  },
+  {
+   "id": "B12",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "HANDS"
+   ],
+   "state": "BROTH0",
+   "cam_th": "ก้มกล้องลงช้าๆ",
+   "cam_en": "Slow tilt down",
+   "action_th": "มือเทข้าวหอมมะลิสุกจากชามลงน้ำซุปสีส้มอ่อนที่เดือดเบาๆ เม็ดข้าวกระจายตัว",
+   "highlight": false,
+   "gen": 8,
+   "start": 97,
+   "end": 103,
+   "dur": 6,
+   "act": "A3"
+  },
+  {
+   "id": "B13",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "STOVE",
+    "HANDS"
+   ],
+   "state": "BROTH",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มือรินน้ำปลาจากถ้วยกระเบื้องเล็กลงหม้อข้าวต้ม เป็นสายเรียวสีอำพัน",
+   "highlight": false,
+   "gen": 8,
+   "start": 103,
+   "end": 108,
+   "dur": 5,
+   "act": "A3"
+  },
+  {
+   "id": "P06",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "BROTH",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "line_th": "ปรุงแค่น้ำปลากับซีอิ๊วขาวนิดเดียว ชิมดู ต้องกลมกล่อม",
+   "action_th": "เชฟถือช้อนกระเบื้องตักน้ำซุปไว้ระดับคาง พูดกับกล้อง แล้วพยักหน้าพอใจ",
+   "highlight": false,
+   "gen": 10,
+   "start": 108,
+   "end": 116,
+   "dur": 8,
+   "act": "A3"
+  },
+  {
+   "id": "B14",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "BROTH",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "ผิวข้าวต้มเดือดปุดๆ ฟองแตกช้าๆ คราบน้ำมันกุ้งสีส้มลอยบนผิว",
+   "highlight": false,
+   "gen": 8,
+   "start": 116,
+   "end": 120,
+   "dur": 4,
+   "act": "A3"
+  },
+  {
+   "id": "B15",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "PRAWN",
+    "HANDS"
+   ],
+   "state": "BROTH",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มือเทกุ้งแกะแล้วจากชามเคลือบลงหม้อข้าวต้มที่เดือด",
+   "highlight": false,
+   "gen": 8,
+   "start": 120,
+   "end": 125,
+   "dur": 5,
+   "act": "A4"
+  },
+  {
+   "id": "B16",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "STOVE",
+    "PRAWN"
+   ],
+   "state": "COOKING",
+   "cam_th": "ดันกล้องเข้าช้าๆ",
+   "cam_en": "Slow push in",
+   "action_th": "กุ้งในน้ำซุปค่อยๆ เปลี่ยนจากสีเทาใสเป็นขาวขุ่นลายส้มแดง และงอตัวเป็นรูปตัว C",
+   "highlight": true,
+   "gen": 10,
+   "start": 125,
+   "end": 131,
+   "dur": 6,
+   "act": "A4"
+  },
+  {
+   "id": "P07",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE"
+   ],
+   "state": "COOKED",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "line_th": "ใส่กุ้งทีหลังสุด พอเป็นสีส้มปุ๊บ ยกลงจากเตาเลย เนื้อจะเด้งค่ะ",
+   "action_th": "เชฟใช้ทัพพีตักกุ้งสุกสีส้มขึ้นมาให้กล้องดู ไอร้อนลอยจากหม้อ",
+   "highlight": false,
+   "gen": 10,
+   "start": 131,
+   "end": 139,
+   "dur": 8,
+   "act": "A4"
+  },
+  {
+   "id": "B17",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "PRAWN",
+    "HANDS"
+   ],
+   "state": "COOKED",
+   "cam_th": "ยกกล้องขึ้นช้าๆ",
+   "cam_en": "Slow tilt up",
+   "action_th": "ทัพพีไม้ช้อนกุ้งสุกตัวอวบขึ้นจากหม้อ น้ำซุปไหลออกจากทัพพี ไอร้อนลอย",
+   "highlight": true,
+   "gen": 8,
+   "start": 139,
+   "end": 144,
+   "dur": 5,
+   "act": "A4"
+  },
+  {
+   "id": "B18",
+   "kind": "broll",
+   "size": "CU",
+   "props": [
+    "STOVE",
+    "HANDS"
+   ],
+   "state": "COOKED",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "มือโรยขิงซอย ผักชี และต้นหอมหั่นลงหม้อข้าวต้ม สีเขียวกระจายบนผิว",
+   "highlight": false,
+   "gen": 8,
+   "start": 144,
+   "end": 149,
+   "dur": 5,
+   "act": "A4"
+  },
+  {
+   "id": "P08",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "STOVE",
+    "COUNTER",
+    "BOWL"
+   ],
+   "state": "COOKED",
+   "cam_th": "ดันกล้องเข้าช้าๆ",
+   "cam_en": "Slow push in",
+   "line_th": "ตักใส่ชามตราไก่ แล้วโรยกระเทียมเจียว ขิง ผักชี พริกไทยขาวค่ะ",
+   "action_th": "เชฟตักข้าวต้มจากหม้อใส่ชามตราไก่บนเคาน์เตอร์ ถ้วยเครื่องโรยวางเรียงข้างชาม",
+   "highlight": false,
+   "gen": 10,
+   "start": 149,
+   "end": 157,
+   "dur": 8,
+   "act": "A4"
+  },
+  {
+   "id": "B19",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "BOWL",
+    "HANDS"
+   ],
+   "state": "BOWL",
+   "cam_th": "กล้องนิ่ง",
+   "cam_en": "Static",
+   "action_th": "นิ้วโรยกระเทียมเจียวสีทองลงบนข้าวต้มในชามตราไก่",
+   "highlight": false,
+   "gen": 8,
+   "start": 157,
+   "end": 160,
+   "dur": 3,
+   "act": "A4"
+  },
+  {
+   "id": "B20",
+   "kind": "broll",
+   "size": "ECU",
+   "props": [
+    "BOWL",
+    "HANDS"
+   ],
+   "state": "BOWL",
+   "cam_th": "ยกกล้องตามช้อน",
+   "cam_en": "Slow tilt up following the spoon",
+   "action_th": "ช้อนกระเบื้องตักข้าวพร้อมกุ้งหนึ่งตัวยกขึ้นจากชามที่โรยพริกไทยขาวแล้ว ไอร้อนลอย",
+   "highlight": true,
+   "gen": 10,
+   "start": 160,
+   "end": 166,
+   "dur": 6,
+   "act": "A5"
+  },
+  {
+   "id": "P09",
+   "kind": "chef",
+   "size": "MCU",
+   "props": [
+    "COUNTER",
+    "BOWL"
+   ],
+   "state": "BOWL",
+   "cam_th": "ดอลลี่ถอยออกช้าๆ",
+   "cam_en": "Slow dolly out",
+   "line_th": "หอม ร้อน คล่องคอ ข้าวต้มกุ้งตอนเช้าแบบนี้ อร่อยที่สุดค่ะ",
+   "action_th": "เชฟถือช้อนข้าวต้มที่มีไอร้อนระดับคาง พูดกับกล้อง แล้วยิ้มกว้าง ชามตราไก่อยู่ด้านหน้า",
+   "highlight": false,
+   "gen": 10,
+   "start": 166,
+   "end": 174,
+   "dur": 8,
+   "act": "A5"
+  },
+  {
+   "id": "B21",
+   "kind": "broll",
+   "size": "WS",
+   "props": [
+    "COUNTER",
+    "BOWL"
+   ],
+   "state": "BOWL",
+   "cam_th": "ดอลลี่ถอยออกช้าๆ",
+   "cam_en": "Slow dolly out",
+   "action_th": "ภาพปิด: ชามข้าวต้มกุ้งบนเคาน์เตอร์ไม้ แสงเช้าลอดหน้าต่าง ไอร้อนลอย ใบตองข้างชาม",
+   "highlight": true,
+   "gen": 8,
+   "start": 174,
+   "end": 180,
+   "dur": 6,
+   "act": "A5"
+  }
+ ],
+ "blocks": {
+  "LIGHT": "Warm early-morning sunlight streaming from a window at left, soft golden key light, drifting steam catching the light, shallow depth of field, gentle film grain, warm amber grade with soft greens, photorealistic food cinematography, natural textures.",
+  "STOVE": "A black clay Thai charcoal stove with glowing orange embers, holding a dented matte aluminum pot with two small side handles and a softly worn plain surface, no markings.",
+  "COUNTER": "A weathered teak wood counter with a thick round tamarind-wood chopping board, small white enamel bowls with blue rims, faded blue-green tiled wall behind, a few banana leaves at the edge.",
+  "PRAWN": "Fresh giant river prawns, large heads with orange tomalley showing through translucent grey-blue shells, long slender blue claws, glossy and wet.",
+  "BOWL": "A white ceramic rooster bowl hand-painted with a red-and-black rooster and a green banana leaf, with a matching white ceramic spoon.",
+  "HANDS": "Only the cook's clean bare hands and forearms in faded indigo rolled sleeves appear, no face.",
+  "NEGATIVE": "text, letters, numbers, logos, watermarks, labels, brand marks, faces, extra fingers, deformed hands, plastic look, cartoon style, oversaturated colors, blown highlights, gas stove, stainless steel, modern appliances, cluttered background"
+ },
+ "chef": "A Thai woman cook in her early fifties, black hair tied in a low bun, warm kind smile, faded indigo cotton shirt with rolled sleeves, plain cream apron without any marks, clean bare hands, in a rustic Thai home kitchen.",
+ "negative_chef": "text, letters, numbers, logos, watermarks, labels, brand marks, embroidery, extra people, extra fingers, deformed hands, distorted face, plastic skin, cartoon style, oversaturated colors, blown highlights, gas stove, stainless steel, modern appliances",
+ "states": {
+  "NONE": [
+   "ไม่มีอาหารในภาพ",
+   ""
+  ],
+  "RAW": [
+   "กุ้งดิบทั้งตัว",
+   "The prawns are whole and raw, translucent grey-blue, the pot holds only clear water."
+  ],
+  "WATER": [
+   "หม้อน้ำเปล่า",
+   "The pot holds only clear water, no prawns or any food in frame."
+  ],
+  "RAW_BOARD": [
+   "กุ้งดิบบนเขียง",
+   "The prawns are whole and raw, translucent grey-blue, nothing cooked."
+  ],
+  "PEELING": [
+   "กำลังแกะกุ้งดิบ",
+   "Raw prawns being peeled, translucent grey flesh, heads with orange tomalley set aside, nothing cooked yet."
+  ],
+  "PEELED": [
+   "กุ้งแกะแล้ว ยังดิบ",
+   "Peeled raw prawn tails in an enamel bowl, heads in another bowl, nothing cooked yet."
+  ],
+  "GARLIC": [
+   "เจียวกระเทียมในหม้อ กุ้งยังดิบ",
+   "Chopped garlic frying golden in oil in the pot, prawn heads and tails still raw in side bowls."
+  ],
+  "GARLIC0": [
+   "กระเทียมเพิ่งลงน้ำมัน",
+   "Pale chopped garlic just starting to sizzle in hot oil in the pot, not golden yet, no prawns in the pot."
+  ],
+  "GARLICOIL": [
+   "น้ำมันกระเทียมในหม้อ กระเทียมเจียวตักออกแล้ว",
+   "Golden garlic oil in the pot with only a few fried garlic bits left, the fried garlic set aside in a small bowl, prawn heads and tails still raw in side bowls."
+  ],
+  "HEADS": [
+   "ผัดหัวกุ้งในน้ำมันกระเทียม",
+   "Prawn heads frying in garlic oil in the pot, shells turning bright orange, peeled tails still raw in a side bowl."
+  ],
+  "BROTH0": [
+   "น้ำซุปหัวกุ้ง ยังไม่ใส่ข้าว",
+   "Pale orange-tinted broth simmering with prawn heads, no rice yet, peeled tails still raw in a side bowl."
+  ],
+  "BROTH": [
+   "น้ำซุปใส่ข้าวแล้ว กุ้งยังดิบ",
+   "Golden broth with soft jasmine rice grains simmering, orange prawn oil on the surface, peeled tails still raw in a side bowl."
+  ],
+  "COOKING": [
+   "กุ้งเพิ่งลงหม้อ ยังใส",
+   "Peeled prawns just dropped into the simmering rice broth, still translucent grey, starting to curl."
+  ],
+  "COOKED": [
+   "กุ้งสุกในหม้อ",
+   "The prawns are fully cooked, curled, opaque white flesh with bright orange-red stripes, in the rice broth."
+  ],
+  "BOWL": [
+   "ข้าวต้มกุ้งในชามตราไก่",
+   "Finished prawn rice soup in the rooster bowl: rice in golden broth, cooked orange-striped prawns, fried garlic, ginger strips, cilantro, spring onion, white pepper."
+  ]
+ },
+ "acts": [
+  [
+   "A1",
+   "เปิดเรื่อง · รู้จักกุ้งแม่น้ำ",
+   0,
+   30
+  ],
+  [
+   "A2",
+   "เตรียมกุ้งและเจียวกระเทียม",
+   30,
+   65
+  ],
+  [
+   "A3",
+   "ทำน้ำซุปหัวกุ้งและใส่ข้าว",
+   65,
+   120
+  ],
+  [
+   "A4",
+   "ใส่กุ้ง ปรุง ตักใส่ชาม",
+   120,
+   160
+  ],
+  [
+   "A5",
+   "ชิมและปิดเรื่อง",
+   160,
+   180
+  ]
+ ]
+}
